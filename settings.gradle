@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        jcenter()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name= 'ecommerce'
+
+include 'ecommerce-fe'
+include 'ecommerce-be'

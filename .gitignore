@@ -1,0 +1,12 @@
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# Ignore Gradle build output directory
+build
+logs
+out
+node_modules
+
+

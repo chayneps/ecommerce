@@ -1,0 +1,28 @@
+ecommerce:
+  api-version: 1
+  page-size: 50
+
+
+
+logging:
+  level:
+    com.razrmarketinginc.ecommerce: debug
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/ecommerce
+    username: mobetize
+    password: mobetize
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
+springdoc:
+  api-docs:
+    path: /openapi
+  swagger-ui:
+    path: /swagger-ui
+  default-produces-media-type: application/json

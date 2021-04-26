@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.razrmarketinginc.ecommerce: debug
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
