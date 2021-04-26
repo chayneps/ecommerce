@@ -1,7 +1,7 @@
 ## eCommerce's points bank microservice
 
 ### System Requirements
-- Java 8+
+- Java 11+
 - MySql 5.7+
     - Change DB configuration under spring.datasource in src/main/resources/application.yml
     
